@@ -1,0 +1,12 @@
+name: Slate
+version: '${project.version}'
+main: org.imnobody.plugins.slate.Slate
+api-version: 1.19
+prefix: SLATE
+authors: [ imnobody ]
+description: A clean slate
+depend: [ProtocolLib]
+
+commands:
+  shop:
+    description: Open the shop
